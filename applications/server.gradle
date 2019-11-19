@@ -26,6 +26,7 @@ dependencies {
 bootRun.environment([
         "MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE": "*",
         "MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS": "always",
+        "MANAGEMENT.ENDPOINT.HEALTH.SHOW-DETAILS" :"always"
 ])
 
 springBoot {
